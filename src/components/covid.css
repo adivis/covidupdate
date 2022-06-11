@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Poppins', sans-serif;
+}.search{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.covid{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.card{
+    background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    width: 20%;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.heading{
+    color: #cddbf4;
+    font-size: 40px;
+}
+.search input{
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.search button{
+    border: none;
+    background-color: #302b63;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.search input:focus,
+.search input:hover,
+.search input:active{
+    border: none;
+    outline: none;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.allInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
